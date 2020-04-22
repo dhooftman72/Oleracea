@@ -1,4 +1,4 @@
-function nada = Oleracea_parameters_load
+function Oleracea_parameters_load
 %% Paraqmeters: get all the functions we want first
     cd Data_analyses_results
     load('seedbank_functions_results.mat');
@@ -113,5 +113,4 @@ function nada = Oleracea_parameters_load
         'Flowering_like_mean_OH', 'Flowering_like_std_OH', 'Flowering_like_mean_W', 'Flowering_like_std_W',...
         'Fecundity_mean_K', 'Fecundity_std_K', 'Fecundity_mean_OH', 'Fecundity_std_OH', 'Fecundity_mean_W',...
         'Fecundity_std_W','Histo_Base_K', 'Histo_Base_OH','Histo_Base_W');
-    
-    nada = 1;
+
